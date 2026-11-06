@@ -7,9 +7,6 @@
   padding: 92px 50px 96px;
 }
 
-.header-menu {
-}
-
 .menu-list {
   list-style: circle;
   display: flex;
@@ -113,6 +110,7 @@
   text-transform: uppercase;
   font-size: 22px;
   line-height: 1.27;
+  word-spacing: 10px;
   word-spacing: 18px;
 }
 
@@ -210,4 +208,40 @@
 }
 
 .about {
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  gap: 25px;
+  padding: 120px 24px 0;
+}
+
+.about__logo {
+  width: 240px;
+  height: 240px;
+  margin: 35px auto 0;
+  border-radius: 50%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__logo-image {
+  width: 148px;
+}
+
+.about__title {
+  margin-top: 133px;
+  margin-bottom: 110px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 20px;
+  line-height: 1.2;
 }
